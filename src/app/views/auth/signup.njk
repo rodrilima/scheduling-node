@@ -2,6 +2,8 @@
 
 {% block body %}
 <form action="/singup" method="post">
+    <h1>Create new account</h1>
+    
     <label for="avatar">
         <img src="/images/avatar.svg" alt="avatar" height="24">
     </label>
@@ -19,7 +21,7 @@
 
     <button type="submit">Sign up</button>
 
-    <a href="/">Sign in</a>
+    <a href="/">Already have account? Sign in</a>
 </form>
 <script>
     var avatarInput = document.getElementById('avatar')
