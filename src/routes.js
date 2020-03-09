@@ -8,5 +8,8 @@ routes.get('/', (req,res) => {
 routes.get('/signup', (req,res) => {
     return res.render('auth/signup', { pagetitle: "Sign Up" })
 })
+routes.get('/app/dashboard', (req,res) => {
+    return res.render('dashboard', { pagetitle: "Dashboard" })
+})
 
 module.exports = routes

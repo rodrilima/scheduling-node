@@ -23,7 +23,9 @@ class App {
             express: this.server,
             autoescape: true
         })
-        this.server.use(express.static(path.resolve(__dirname, 'public')))
+        const staticDirectory = express.static(path.resolve(__dirname, 'public'))
+        this.server.use(staticDirectory)
+        this.server.use('/app',staticDirectory)
         this.server.set('view engine', 'njk');
     }
     routes() {
