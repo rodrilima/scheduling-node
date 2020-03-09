@@ -2,7 +2,7 @@
 
 ## Screenshots
 
-![signin](https://raw.githubusercontent.com/rodrilima/github-loader-repositories/master/images/signin.png)
+![signin](https://raw.githubusercontent.com/rodrilima/scheduling-node/master/images/signin.png)
 
 Coming more...
 
