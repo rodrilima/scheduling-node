@@ -2,11 +2,15 @@
 
 ## Screenshots
 
-Coming Soon
+![signin](https://raw.githubusercontent.com/rodrilima/github-loader-repositories/master/images/signin.png)
+
+Coming more...
 
 ## About this Project
 
-React Project that loads github repositories using the Github API .
+The project makes it possible to schedule times for different professionals.
+
+**Attention: The project is not yet finished**
 
 This project is part of my personal portfolio, so, I'll be happy if you could provide me any feedback about the project, code, structure or anything that you can report that could make me a better developer!
 
@@ -16,10 +20,11 @@ Connect with me at [Linkedin](https://www.linkedin.com/in/rodrilima/)
 
 ## Functionalities
 
-- Create repositories list
-- See respository description and author
-- See last 5 issues
-- Shortcut links to github
+- Sign up
+- Sign in
+- Choose a Professional
+- Schedule an appointment
+- Coming more...
 
 ## Getting Started
 
@@ -32,9 +37,9 @@ To run this project, you'll only need to have the npm installed.
 Cloning the Repository
 
 ```
-$ git clone https://github.com/rodrilima/github-loader-repositories.git
+$ git clone https://github.com/rodrilima/scheduling-node.git
 
-$ cd github-loader-repositories
+$ cd scheduling-node
 
 $ npm install
 ```
@@ -48,13 +53,10 @@ $ npm start
 
 ## Built With
 
-- [React](https://github.com/facebook/react)
-- [React Router Dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)
-- [Styled Components](https://github.com/styled-components/styled-components)
-- [Axios](https://github.com/axios/axios)
-- [PropTypes](https://github.com/facebook/prop-types)
-- [ESLint](https://github.com/eslint/eslint)
+- [Express](https://github.com/expressjs/express)
+- [Nunjucks](https://github.com/mozilla/nunjucks)
+- [Dotenv](https://github.com/motdotla/dotenv)
 
 ## License
 
-This project is licensed under the [GNU General Public License v3.0](https://github.com/rodrilima/github-loader-repositories/blob/master/LICENSE)
+This project is licensed under the [GNU General Public License v3.0](https://github.com/rodrilima/scheduling-node/blob/master/LICENSE)
